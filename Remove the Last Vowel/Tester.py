@@ -15,3 +15,12 @@ test("Get busy living or get busy dying.", "Gt bsy livng r gt bsy dyng.")
 test("If you want to live a happy life, tie it to a goal, not to people.", "f yo wnt t liv  hppy lif, ti t t  gol, nt t peopl.")
 
 # Attempt one </3 (\w+(?=[aeiouAEIOU]))|[^aeiouAEIOU]
+
+# (Working) attempt two:
+# def remove_last_vowel(txt: str) -> str:
+#     words = txt.split()
+#     x = ""
+#     for word in words:
+#         x += re.sub(r'([aeiouAEIOU])(?!.*[aeiouAEIOU]\w*)', '', word) + " "
+#     x = x[:-1] # Removes the extra space
+#     return x
