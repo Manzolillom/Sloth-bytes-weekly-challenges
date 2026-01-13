@@ -14,7 +14,7 @@ test("Love is a serious mental disease.", "Lov s  serios mentl diseas.")
 test("Get busy living or get busy dying.", "Gt bsy livng r gt bsy dyng.")
 test("If you want to live a happy life, tie it to a goal, not to people.", "f yo wnt t liv  hppy lif, ti t t  gol, nt t peopl.")
 
-# Attempt one </3 (\w+(?=[aeiouAEIOU]))|[^aeiouAEIOU]
+# (not working) Attempt one </3 (\w+(?=[aeiouAEIOU]))|[^aeiouAEIOU]
 
 # (Working) attempt two:
 # def remove_last_vowel(txt: str) -> str:
