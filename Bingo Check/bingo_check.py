@@ -4,13 +4,11 @@ def check_row(row: list[str]) -> bool:
             return False
     return True
 
-
 def check_column(bingo: list[list[str]], column: int) -> bool:
     for i in range(0,5):
         if bingo[i][column] != 'x': 
             return False
     return True
-
 
 # NOTE: it doesn't check if bingo is actually a 5x5
 def bingo_check(bingo: list[list[str]]) -> bool:
