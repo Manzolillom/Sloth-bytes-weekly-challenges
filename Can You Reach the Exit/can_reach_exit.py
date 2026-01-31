@@ -55,10 +55,6 @@ def possible_directions(position: list[int]) -> list[list[int]]:
 
 
 def spread(position : list[int]):
-    row, col = position
-    if mappa[row][col] == 'E':
-        raise ExitFoundException
-    
     for path in possible_directions(position):
         spread(path)
 
