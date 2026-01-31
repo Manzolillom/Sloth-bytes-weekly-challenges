@@ -44,5 +44,5 @@ output = True
 Find the exit recursively, at each intersection start a new function for each path:
 The straight line to win is the default case, if it's blocked false, otherwise true
 
-December 02, 2025 
-https://slothbytes.beehiiv.com/p/being-wrong-is-your-job
+November 11, 2025 
+https://slothbytes.beehiiv.com/p/your-projects-probably-suck
