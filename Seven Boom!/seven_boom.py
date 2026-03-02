@@ -1,5 +1,3 @@
-# Seven boom
-
 def count_sevens(num : int) -> int:
     if num/10 == 0:
         return 0
